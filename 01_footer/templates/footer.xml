@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<odoo>
+    <template inherit_id="website.footer_custom" name="Footer marlon" id="footer_marlon">
+
+        <xpath expr="." position="inside">
+			<link rel="stylesheet" href="/01_footer/static/src/css/style.css"></link>
+		</xpath>
+
+
+        <xpath expr="//div[@id='footer']" position="replace">
+            <div id="footer" class="container hidden-print">
+                <p>Footer Simple</p>
+                <p>Footer Simple 2</p>
+            </div>
+        </xpath>
+    </template>
+</odoo>
