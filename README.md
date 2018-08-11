@@ -1,6 +1,7 @@
 # Trucos Web
 ## Cargar Datos Masivos
 
+Agregando un CSS
 note_templates.xml
 ```
 <?xml version="1.0" encoding="utf-8"?>
