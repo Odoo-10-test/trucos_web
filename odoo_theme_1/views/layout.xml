@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+  <data>
+
+      <template id="custom_header" inherit_id="website.layout" name="Custom Header">
+
+  <!-- Assign an id  -->
+  <xpath expr="//div[@id='wrapwrap']/header" position="attributes">
+    <attribute name="id">my_header</attribute>
+  </xpath>
+
+  <!-- Add an element after the top menu  -->
+  <xpath expr="//div[@id='wrapwrap']/header/div" position="after">
+    <div class="container">
+      <div class="alert alert-info mt16" role="alert">
+        <strong>Welcome</strong> in our website!
+      </div>
+    </div>
+  </xpath>
+</template>
+
+  </data>
+</odoo>
